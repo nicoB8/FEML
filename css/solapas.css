@@ -1,0 +1,68 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 3, 2016, 8:14:12 PM
+    Author     : Nicolas
+*/
+#tabsSection {
+    clear: both;
+    margin: 2% 0;
+}
+
+.seller {
+    color: #3da346;
+}
+
+.seller p {
+    background-color: #a3b4a4;
+    padding: 0.5% 0 0.5% 2%;
+}
+
+.buyer {
+    color: #116DC4;
+}
+
+.buyer p {
+    background-color:#b2d7e1;
+    padding: 0.5% 0 0.5% 2%;
+}
+
+.buyer, .seller, .secDescription, .secQuestions {
+    clear: both;
+    padding: 5px;
+}
+
+.tab section{
+    border: 2px solid black;
+}
+
+.tab input[type='radio'] + label{
+    cursor: pointer;
+    float: left;
+    background-color: #adb2b4;
+    border: solid 1px black;
+    padding: 3px;
+    zoom: 1.1;
+}
+
+.tab input[type='radio']:checked + label{
+    background-color: white;
+    border-bottom: none;
+    zoom: 1.3;
+    z-index: 2;
+}
+
+.tab input[type='radio']:first-child + label{
+    margin-left: 3%;
+}
+
+.tab input[type='radio'], .secDescription, .secQuestions{
+    display: none;
+}
+
+#rDescription:checked ~ .secDescription, #rQuestions:checked ~ .secQuestions{
+    display: block;
+}

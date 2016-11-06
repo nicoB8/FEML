@@ -1,0 +1,77 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 3, 2016, 9:34:16 PM
+    Author     : Nicolas
+*/
+main{
+    background-color: #f1f0f0;
+}
+
+header, footer {
+    background-color: #f7f748;
+    height: 7.3em;
+}
+
+header form{
+    margin: 0;
+}
+
+header img{
+    width: 25%;
+    height: 80%;
+    margin: 0.7% 4%;
+    float: left;
+}
+
+.searchWay {
+    float: left;
+    margin-top: 20px !important;
+}
+
+header button.searchWay {
+    height: 40px !important;
+}
+
+header input[type='text'].searchWay{
+    height: 25px !important;
+    width: 33%;
+}
+
+footer h4{
+    padding: 1%;
+    float: left;
+    font-weight: 600;
+}
+
+#textDeclaration{
+    float: right;
+}
+
+h1{
+    font-size: 3.5em;
+    background-color: whitesmoke;
+    padding: 2%;
+}
+
+hr{
+    border: solid 1px #abb3b5;
+}
+
+#mainImg{
+    float: left;
+    margin: 1% 5% 1% 3%;
+    border: solid 2px #abb3b5;
+}
+
+
+
+
+
+/*.ch-carousel-next {
+    float: left;
+    margin-left: -20px;
+}*/
